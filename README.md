@@ -4,7 +4,7 @@
 
 Ensure you have the following installed:
 
-## Installation
+## Backend Installation
 
 1. Clone the repository
 
@@ -34,6 +34,27 @@ $ nodemon server.js
 
 This will start the app at `http://localhost:5000`
 
+## Frontend Installation
 
+```shell
+$ cd frontend
+```
+
+Install the dependencies
+
+   ```shell
+   $ npm install
+   ```
+## Running the Application
+
+### Development Instance
+
+Run the application on development mode:
+
+```shell
+$ npm run start
+```
+
+This will start the app at `http://localhost:3000` by default.
 
 
